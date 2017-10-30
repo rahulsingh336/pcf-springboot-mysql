@@ -1,0 +1,11 @@
+---
+applications:
+- name: demo-app-mysql
+  disk_quota: 256M
+  buildpack: java_buildpack
+  path: demoDBConnection-0.0.1-SNAPSHOT.jar
+
+services:
+  database: test-db
+  
+  
